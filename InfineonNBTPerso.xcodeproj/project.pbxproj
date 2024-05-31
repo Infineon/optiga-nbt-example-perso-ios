@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A168A792ADFD68A00696755 /* ADTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168A782ADFD68900696755 /* ADTViewModel.swift */; };
+		8A168A7C2ADFEF1A00696755 /* PassThroughViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168A7B2ADFEF1A00696755 /* PassThroughViewModel.swift */; };
+		8A168A7F2ADFF6DA00696755 /* CHViewModelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168A7E2ADFF6DA00696755 /* CHViewModelModel.swift */; };
+		8A168A822AE0FE4B00696755 /* INDEFHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168A812AE0FE4B00696755 /* INDEFHandler.swift */; };
+		8A168A852AE1001800696755 /* InfineonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168A842AE1001800696755 /* InfineonHandler.swift */; };
+		8A168A912AE137D600696755 /* BPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168A902AE137D600696755 /* BPViewModel.swift */; };
+		8A168A942AE14A7100696755 /* SampleDeviceKey.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8A168A922AE14A7100696755 /* SampleDeviceKey.pem */; };
+		8A168A952AE14A7100696755 /* SampleDeviceCertificate.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8A168A932AE14A7100696755 /* SampleDeviceCertificate.pem */; };
+		8A168A972AE14A9600696755 /* CertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168A962AE14A9600696755 /* CertUtils.swift */; };
+		8A168A9C2AE24A7D00696755 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168A9B2AE24A7D00696755 /* Files.swift */; };
+		8A1A875A2AA5987500D56EA4 /* InfineonNBTPersoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A87592AA5987500D56EA4 /* InfineonNBTPersoApp.swift */; };
+		8A1A875C2AA5987500D56EA4 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A875B2AA5987500D56EA4 /* SplashScreenView.swift */; };
+		8A1A875E2AA5987600D56EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A875D2AA5987600D56EA4 /* Assets.xcassets */; };
+		8A1A87852AA5A28F00D56EA4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A87842AA5A28F00D56EA4 /* HomeView.swift */; };
+		8A1A878E2AA5A63F00D56EA4 /* SourceSans3-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A87892AA5A63F00D56EA4 /* SourceSans3-Semibold.otf */; };
+		8A1A878F2AA5A63F00D56EA4 /* SourceSans3-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A878A2AA5A63F00D56EA4 /* SourceSans3-Regular.otf */; };
+		8A1A87902AA5A63F00D56EA4 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A878B2AA5A63F00D56EA4 /* Font+Extension.swift */; };
+		8A1A87982AA5AF3C00D56EA4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A87972AA5AF3C00D56EA4 /* String+Extension.swift */; };
+		8A1A879B2AA5AFE600D56EA4 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A879A2AA5AFE600D56EA4 /* Images.swift */; };
+		8A1A879C2AA5B57600D56EA4 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A878D2AA5A63F00D56EA4 /* SourceSansPro-Light.ttf */; };
+		8A1A87A22AA5CD7600D56EA4 /* SourceSans3VF-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A879D2AA5B74100D56EA4 /* SourceSans3VF-Italic.otf */; };
+		8A1A87A82AA5DB1700D56EA4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A87A62AA5DB1700D56EA4 /* Colors.xcassets */; };
+		8A1A87B32AA5DF5F00D56EA4 /* ActionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A87B22AA5DF5F00D56EA4 /* ActionMenu.swift */; };
+		8A1A87BA2AA5EFEC00D56EA4 /* StandardPointDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A87B92AA5EFEC00D56EA4 /* StandardPointDimension.swift */; };
+		8A1A87BD2AA5FF5000D56EA4 /* ActionMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A87BC2AA5FF5000D56EA4 /* ActionMenuItemView.swift */; };
+		8A1A87BF2AA5FFF800D56EA4 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A87BE2AA5FFF800D56EA4 /* HeaderView.swift */; };
+		8A20BB1B2AD8081B004043CD /* IFXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20BB1A2AD8081A004043CD /* IFXButton.swift */; };
+		8A20BB1E2ADCFCDF004043CD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20BB1D2ADCFCDF004043CD /* HomeViewModel.swift */; };
+		8A20BB202ADD3637004043CD /* NBTUseCaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20BB1F2ADD3637004043CD /* NBTUseCaseManager.swift */; };
+		8A20BB232ADD6A2D004043CD /* ResetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20BB222ADD6A2D004043CD /* ResetViewModel.swift */; };
+		8A2EA4982BADD347005E9F10 /* InfineonChanneliOSNfc in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2EA4972BADD347005E9F10 /* InfineonChanneliOSNfc */; };
+		8A2EA49B2BADD358005E9F10 /* InfineonNbt in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2EA49A2BADD358005E9F10 /* InfineonNbt */; };
+		8A2EA49E2BADD366005E9F10 /* InfineonConsoleLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2EA49D2BADD366005E9F10 /* InfineonConsoleLogger */; };
+		8A483AB72B886777009E95E7 /* NBTDeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3847DC2AEA654C00E83719 /* NBTDeviceState.swift */; };
+		8A483AB82B88677B009E95E7 /* NBTDeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3847DC2AEA654C00E83719 /* NBTDeviceState.swift */; };
+		8A69E9EE2BD7BCFC00948E8C /* InfineonNbt in Frameworks */ = {isa = PBXBuildFile; productRef = 8A69E9ED2BD7BCFC00948E8C /* InfineonNbt */; };
+		8A6B42F92B57EA4D007B61D4 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B42F82B57EA4D007B61D4 /* Color+Extension.swift */; };
+		8A75D16D2B58FB2B0061699F /* NFCReaderSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75D16C2B58FB2B0061699F /* NFCReaderSessionState.swift */; };
+		8A75D16F2B5916000061699F /* IOSHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75D16E2B5916000061699F /* IOSHandler.swift */; };
+		8A75D1712B593CA90061699F /* RecordEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75D1702B593CA90061699F /* RecordEncoder.swift */; };
+		8A7DABB92AEA439E00FE747F /* CertificateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DABB82AEA439E00FE747F /* CertificateError.swift */; };
+		8A9215902B5E90F8005D2C62 /* IOSNDEFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A92158F2B5E90F8005D2C62 /* IOSNDEFError.swift */; };
+		8A9215962B5F9707005D2C62 /* StateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A9692ADE7E0E00C7D6E7 /* StateConfig.swift */; };
+		8AB1FB302BAD571F00C46E08 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FB2F2BAD571F00C46E08 /* SplashScreenViewModel.swift */; };
+		8AB1FB3D2BAD959D00C46E08 /* NFCReaderSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75D16C2B58FB2B0061699F /* NFCReaderSessionState.swift */; };
+		8AB1FB3E2BADA1AD00C46E08 /* NBTPersoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A96B2ADE7FF600C7D6E7 /* NBTPersoConstants.swift */; };
+		8AC7A96A2ADE7E0E00C7D6E7 /* StateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A9692ADE7E0E00C7D6E7 /* StateConfig.swift */; };
+		8AC7A96C2ADE7FF600C7D6E7 /* NBTPersoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A96B2ADE7FF600C7D6E7 /* NBTPersoConstants.swift */; };
+		8AEDAEB92AA6EB6E009C02C6 /* BrandProtectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAEB82AA6EB6E009C02C6 /* BrandProtectionView.swift */; };
+		8AEDAEBC2AA70530009C02C6 /* ResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAEBB2AA70530009C02C6 /* ResetView.swift */; };
+		8AEDAEBF2AA70A1D009C02C6 /* ConnectionHandoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAEBE2AA70A1D009C02C6 /* ConnectionHandoverView.swift */; };
+		8AEDAEC12AA72A4A009C02C6 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAEC02AA72A4A009C02C6 /* PassThroughView.swift */; };
+		8AEDAEC42AA72D44009C02C6 /* ADTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAEC32AA72D44009C02C6 /* ADTView.swift */; };
+		8AEDAECD2AA73B17009C02C6 /* NFCSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAECC2AA73B17009C02C6 /* NFCSessionManager.swift */; };
+		8AEDAECF2AA841A4009C02C6 /* NBTOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAECE2AA841A4009C02C6 /* NBTOperationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A1A87682AA5987700D56EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1A874E2AA5987500D56EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1A87552AA5987500D56EA4;
+			remoteInfo = nbt.ios.perso;
+		};
+		8A1A87722AA5987700D56EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1A874E2AA5987500D56EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1A87552AA5987500D56EA4;
+			remoteInfo = nbt.ios.perso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A168A782ADFD68900696755 /* ADTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTViewModel.swift; sourceTree = "<group>"; };
+		8A168A7B2ADFEF1A00696755 /* PassThroughViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughViewModel.swift; sourceTree = "<group>"; };
+		8A168A7E2ADFF6DA00696755 /* CHViewModelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHViewModelModel.swift; sourceTree = "<group>"; };
+		8A168A812AE0FE4B00696755 /* INDEFHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INDEFHandler.swift; sourceTree = "<group>"; };
+		8A168A842AE1001800696755 /* InfineonHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfineonHandler.swift; sourceTree = "<group>"; };
+		8A168A902AE137D600696755 /* BPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPViewModel.swift; sourceTree = "<group>"; };
+		8A168A922AE14A7100696755 /* SampleDeviceKey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SampleDeviceKey.pem; sourceTree = "<group>"; };
+		8A168A932AE14A7100696755 /* SampleDeviceCertificate.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SampleDeviceCertificate.pem; sourceTree = "<group>"; };
+		8A168A962AE14A9600696755 /* CertUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertUtils.swift; sourceTree = "<group>"; };
+		8A168A9B2AE24A7D00696755 /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		8A1A87562AA5987500D56EA4 /* InfineonNBTPerso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfineonNBTPerso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A87592AA5987500D56EA4 /* InfineonNBTPersoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfineonNBTPersoApp.swift; sourceTree = "<group>"; };
+		8A1A875B2AA5987500D56EA4 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		8A1A875D2AA5987600D56EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1A875F2AA5987600D56EA4 /* InfineonNBTPerso.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InfineonNBTPerso.entitlements; sourceTree = "<group>"; };
+		8A1A87672AA5987700D56EA4 /* InfineonNBTPersoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfineonNBTPersoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A87712AA5987700D56EA4 /* InfineonNBTPersoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfineonNBTPersoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A87842AA5A28F00D56EA4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8A1A87892AA5A63F00D56EA4 /* SourceSans3-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3-Semibold.otf"; sourceTree = "<group>"; };
+		8A1A878A2AA5A63F00D56EA4 /* SourceSans3-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3-Regular.otf"; sourceTree = "<group>"; };
+		8A1A878B2AA5A63F00D56EA4 /* Font+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		8A1A878D2AA5A63F00D56EA4 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		8A1A87972AA5AF3C00D56EA4 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		8A1A879A2AA5AFE600D56EA4 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		8A1A879D2AA5B74100D56EA4 /* SourceSans3VF-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3VF-Italic.otf"; sourceTree = "<group>"; };
+		8A1A87A52AA5D4F500D56EA4 /* InfineonNBTPersoInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfineonNBTPersoInfo.plist; sourceTree = SOURCE_ROOT; };
+		8A1A87A62AA5DB1700D56EA4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8A1A87B22AA5DF5F00D56EA4 /* ActionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionMenu.swift; sourceTree = "<group>"; };
+		8A1A87B92AA5EFEC00D56EA4 /* StandardPointDimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardPointDimension.swift; sourceTree = "<group>"; };
+		8A1A87BC2AA5FF5000D56EA4 /* ActionMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionMenuItemView.swift; sourceTree = "<group>"; };
+		8A1A87BE2AA5FFF800D56EA4 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8A20BB1A2AD8081A004043CD /* IFXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFXButton.swift; sourceTree = "<group>"; };
+		8A20BB1D2ADCFCDF004043CD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8A20BB1F2ADD3637004043CD /* NBTUseCaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBTUseCaseManager.swift; sourceTree = "<group>"; };
+		8A20BB222ADD6A2D004043CD /* ResetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewModel.swift; sourceTree = "<group>"; };
+		8A3847DC2AEA654C00E83719 /* NBTDeviceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBTDeviceState.swift; sourceTree = "<group>"; };
+		8A6B42F82B57EA4D007B61D4 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		8A75D16C2B58FB2B0061699F /* NFCReaderSessionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFCReaderSessionState.swift; sourceTree = "<group>"; };
+		8A75D16E2B5916000061699F /* IOSHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSHandler.swift; sourceTree = "<group>"; };
+		8A75D1702B593CA90061699F /* RecordEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordEncoder.swift; sourceTree = "<group>"; };
+		8A7DABB82AEA439E00FE747F /* CertificateError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateError.swift; sourceTree = "<group>"; };
+		8A92158F2B5E90F8005D2C62 /* IOSNDEFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNDEFError.swift; sourceTree = "<group>"; };
+		8AB1FB2F2BAD571F00C46E08 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		8AC7A9692ADE7E0E00C7D6E7 /* StateConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateConfig.swift; sourceTree = "<group>"; };
+		8AC7A96B2ADE7FF600C7D6E7 /* NBTPersoConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBTPersoConstants.swift; sourceTree = "<group>"; };
+		8AEDAEB82AA6EB6E009C02C6 /* BrandProtectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandProtectionView.swift; sourceTree = "<group>"; };
+		8AEDAEBB2AA70530009C02C6 /* ResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetView.swift; sourceTree = "<group>"; };
+		8AEDAEBE2AA70A1D009C02C6 /* ConnectionHandoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHandoverView.swift; sourceTree = "<group>"; };
+		8AEDAEC02AA72A4A009C02C6 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
+		8AEDAEC32AA72D44009C02C6 /* ADTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTView.swift; sourceTree = "<group>"; };
+		8AEDAECC2AA73B17009C02C6 /* NFCSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFCSessionManager.swift; sourceTree = "<group>"; };
+		8AEDAECE2AA841A4009C02C6 /* NBTOperationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBTOperationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1A87532AA5987500D56EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2EA4982BADD347005E9F10 /* InfineonChanneliOSNfc in Frameworks */,
+				8A69E9EE2BD7BCFC00948E8C /* InfineonNbt in Frameworks */,
+				8A2EA49E2BADD366005E9F10 /* InfineonConsoleLogger in Frameworks */,
+				8A2EA49B2BADD358005E9F10 /* InfineonNbt in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A87642AA5987700D56EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A876E2AA5987700D56EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A168A802AE0FE2900696755 /* NDEFHandler */ = {
+			isa = PBXGroup;
+			children = (
+				8A75D1702B593CA90061699F /* RecordEncoder.swift */,
+				8A75D16E2B5916000061699F /* IOSHandler.swift */,
+				8A168A812AE0FE4B00696755 /* INDEFHandler.swift */,
+				8A168A842AE1001800696755 /* InfineonHandler.swift */,
+				8A92158F2B5E90F8005D2C62 /* IOSNDEFError.swift */,
+			);
+			path = NDEFHandler;
+			sourceTree = "<group>";
+		};
+		8A168A9A2AE24A6700696755 /* Raw */ = {
+			isa = PBXGroup;
+			children = (
+				8A168A932AE14A7100696755 /* SampleDeviceCertificate.pem */,
+				8A168A922AE14A7100696755 /* SampleDeviceKey.pem */,
+				8A168A9B2AE24A7D00696755 /* Files.swift */,
+			);
+			path = Raw;
+			sourceTree = "<group>";
+		};
+		8A1A874D2AA5987500D56EA4 = {
+			isa = PBXGroup;
+			children = (
+				8A1A87582AA5987500D56EA4 /* InfineonNBTPerso */,
+				8A1A87572AA5987500D56EA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1A87572AA5987500D56EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87562AA5987500D56EA4 /* InfineonNBTPerso.app */,
+				8A1A87672AA5987700D56EA4 /* InfineonNBTPersoTests.xctest */,
+				8A1A87712AA5987700D56EA4 /* InfineonNBTPersoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1A87582AA5987500D56EA4 /* InfineonNBTPerso */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A875F2AA5987600D56EA4 /* InfineonNBTPerso.entitlements */,
+				8A1A87A52AA5D4F500D56EA4 /* InfineonNBTPersoInfo.plist */,
+				8A1A87AC2AA5DF0400D56EA4 /* Presentation */,
+				8AB1FB2E2BAD571200C46E08 /* Business */,
+				8AEDAECB2AA73B0A009C02C6 /* Services */,
+			);
+			path = InfineonNBTPerso;
+			sourceTree = "<group>";
+		};
+		8A1A87882AA5A62100D56EA4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A878B2AA5A63F00D56EA4 /* Font+Extension.swift */,
+				8A1A879D2AA5B74100D56EA4 /* SourceSans3VF-Italic.otf */,
+				8A1A878A2AA5A63F00D56EA4 /* SourceSans3-Regular.otf */,
+				8A1A87892AA5A63F00D56EA4 /* SourceSans3-Semibold.otf */,
+				8A1A878D2AA5A63F00D56EA4 /* SourceSansPro-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8A1A87932AA5AF1B00D56EA4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87AA2AA5DB2200D56EA4 /* Colors */,
+				8A168A9A2AE24A6700696755 /* Raw */,
+				8A1A87882AA5A62100D56EA4 /* Fonts */,
+				8A1A87992AA5AFD500D56EA4 /* Images */,
+				8A1A87962AA5AF3600D56EA4 /* Strings */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8A1A87962AA5AF3600D56EA4 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87972AA5AF3C00D56EA4 /* String+Extension.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		8A1A87992AA5AFD500D56EA4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A879A2AA5AFE600D56EA4 /* Images.swift */,
+				8A1A875D2AA5987600D56EA4 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8A1A87AA2AA5DB2200D56EA4 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				8A6B42F82B57EA4D007B61D4 /* Color+Extension.swift */,
+				8A1A87A62AA5DB1700D56EA4 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		8A1A87AC2AA5DF0400D56EA4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87592AA5987500D56EA4 /* InfineonNBTPersoApp.swift */,
+				8A1A875B2AA5987500D56EA4 /* SplashScreenView.swift */,
+				8AEDAEB82AA6EB6E009C02C6 /* BrandProtectionView.swift */,
+				8AEDAEBE2AA70A1D009C02C6 /* ConnectionHandoverView.swift */,
+				8AEDAEC02AA72A4A009C02C6 /* PassThroughView.swift */,
+				8AEDAEC32AA72D44009C02C6 /* ADTView.swift */,
+				8AEDAEBB2AA70530009C02C6 /* ResetView.swift */,
+				8A1A87AE2AA5DF2900D56EA4 /* Home */,
+				8A20BB1C2AD8227B004043CD /* IFXStyleComponents */,
+				8A1A87932AA5AF1B00D56EA4 /* Assets */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8A1A87AE2AA5DF2900D56EA4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87B02AA5DF4000D56EA4 /* Views */,
+				8A1A87B12AA5DF4E00D56EA4 /* Models */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8A1A87B02AA5DF4000D56EA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87842AA5A28F00D56EA4 /* HomeView.swift */,
+				8A1A87BC2AA5FF5000D56EA4 /* ActionMenuItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A1A87B12AA5DF4E00D56EA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87B22AA5DF5F00D56EA4 /* ActionMenu.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A20BB1C2AD8227B004043CD /* IFXStyleComponents */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87BE2AA5FFF800D56EA4 /* HeaderView.swift */,
+				8AEDAECE2AA841A4009C02C6 /* NBTOperationView.swift */,
+				8A20BB1A2AD8081A004043CD /* IFXButton.swift */,
+			);
+			path = IFXStyleComponents;
+			sourceTree = "<group>";
+		};
+		8A9215892B5E87FE005D2C62 /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				8A168A962AE14A9600696755 /* CertUtils.swift */,
+				8A7DABB82AEA439E00FE747F /* CertificateError.swift */,
+			);
+			path = Certificate;
+			sourceTree = "<group>";
+		};
+		8A92158A2B5E881F005D2C62 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				8A3847DC2AEA654C00E83719 /* NBTDeviceState.swift */,
+				8A75D16C2B58FB2B0061699F /* NFCReaderSessionState.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		8AB1FB2E2BAD571200C46E08 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FB2F2BAD571F00C46E08 /* SplashScreenViewModel.swift */,
+				8A168A902AE137D600696755 /* BPViewModel.swift */,
+				8A20BB222ADD6A2D004043CD /* ResetViewModel.swift */,
+				8A168A782ADFD68900696755 /* ADTViewModel.swift */,
+				8A168A7B2ADFEF1A00696755 /* PassThroughViewModel.swift */,
+				8A168A7E2ADFF6DA00696755 /* CHViewModelModel.swift */,
+				8A20BB1D2ADCFCDF004043CD /* HomeViewModel.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		8AB1FB312BAD577000C46E08 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A87B92AA5EFEC00D56EA4 /* StandardPointDimension.swift */,
+				8AC7A96B2ADE7FF600C7D6E7 /* NBTPersoConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8AB1FB3C2BAD958C00C46E08 /* NFCSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				8A92158A2B5E881F005D2C62 /* Enums */,
+				8AEDAECC2AA73B17009C02C6 /* NFCSessionManager.swift */,
+			);
+			path = NFCSessionManager;
+			sourceTree = "<group>";
+		};
+		8AEDAECB2AA73B0A009C02C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1FB312BAD577000C46E08 /* Utilities */,
+				8AB1FB3C2BAD958C00C46E08 /* NFCSessionManager */,
+				8A9215892B5E87FE005D2C62 /* Certificate */,
+				8A168A802AE0FE2900696755 /* NDEFHandler */,
+				8A20BB1F2ADD3637004043CD /* NBTUseCaseManager.swift */,
+				8AC7A9692ADE7E0E00C7D6E7 /* StateConfig.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1A87552AA5987500D56EA4 /* InfineonNBTPerso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1A877B2AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPerso" */;
+			buildPhases = (
+				8A1A87522AA5987500D56EA4 /* Sources */,
+				8A1A87532AA5987500D56EA4 /* Frameworks */,
+				8A1A87542AA5987500D56EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfineonNBTPerso;
+			packageProductDependencies = (
+				8A2EA4972BADD347005E9F10 /* InfineonChanneliOSNfc */,
+				8A2EA49A2BADD358005E9F10 /* InfineonNbt */,
+				8A2EA49D2BADD366005E9F10 /* InfineonConsoleLogger */,
+				8A69E9ED2BD7BCFC00948E8C /* InfineonNbt */,
+			);
+			productName = nbt.ios.perso;
+			productReference = 8A1A87562AA5987500D56EA4 /* InfineonNBTPerso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1A87662AA5987700D56EA4 /* InfineonNBTPersoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1A877E2AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPersoTests" */;
+			buildPhases = (
+				8A1A87632AA5987700D56EA4 /* Sources */,
+				8A1A87642AA5987700D56EA4 /* Frameworks */,
+				8A1A87652AA5987700D56EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1A87692AA5987700D56EA4 /* PBXTargetDependency */,
+			);
+			name = InfineonNBTPersoTests;
+			packageProductDependencies = (
+			);
+			productName = nbt.ios.persoTests;
+			productReference = 8A1A87672AA5987700D56EA4 /* InfineonNBTPersoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A1A87702AA5987700D56EA4 /* InfineonNBTPersoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1A87812AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPersoUITests" */;
+			buildPhases = (
+				8A1A876D2AA5987700D56EA4 /* Sources */,
+				8A1A876E2AA5987700D56EA4 /* Frameworks */,
+				8A1A876F2AA5987700D56EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1A87732AA5987700D56EA4 /* PBXTargetDependency */,
+			);
+			name = InfineonNBTPersoUITests;
+			productName = nbt.ios.persoUITests;
+			productReference = 8A1A87712AA5987700D56EA4 /* InfineonNBTPersoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1A874E2AA5987500D56EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8A1A87552AA5987500D56EA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8A1A87662AA5987700D56EA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8A1A87552AA5987500D56EA4;
+					};
+					8A1A87702AA5987700D56EA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8A1A87552AA5987500D56EA4;
+					};
+				};
+			};
+			buildConfigurationList = 8A1A87512AA5987500D56EA4 /* Build configuration list for PBXProject "InfineonNBTPerso" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A1A874D2AA5987500D56EA4;
+			packageReferences = (
+				8A2EA4962BADD347005E9F10 /* XCLocalSwiftPackageReference "Libraries/InfineonChanneliOSNfc" */,
+				8A2EA49C2BADD366005E9F10 /* XCLocalSwiftPackageReference "Libraries/InfineonConsoleLogger" */,
+				8A69E9EC2BD7BCFC00948E8C /* XCLocalSwiftPackageReference "Libraries/optiga-nbt-lib-swift" */,
+			);
+			productRefGroup = 8A1A87572AA5987500D56EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1A87552AA5987500D56EA4 /* InfineonNBTPerso */,
+				8A1A87662AA5987700D56EA4 /* InfineonNBTPersoTests */,
+				8A1A87702AA5987700D56EA4 /* InfineonNBTPersoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1A87542AA5987500D56EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1A878E2AA5A63F00D56EA4 /* SourceSans3-Semibold.otf in Resources */,
+				8A1A878F2AA5A63F00D56EA4 /* SourceSans3-Regular.otf in Resources */,
+				8A1A879C2AA5B57600D56EA4 /* SourceSansPro-Light.ttf in Resources */,
+				8A1A875E2AA5987600D56EA4 /* Assets.xcassets in Resources */,
+				8A1A87A22AA5CD7600D56EA4 /* SourceSans3VF-Italic.otf in Resources */,
+				8A168A952AE14A7100696755 /* SampleDeviceCertificate.pem in Resources */,
+				8A168A942AE14A7100696755 /* SampleDeviceKey.pem in Resources */,
+				8A1A87A82AA5DB1700D56EA4 /* Colors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A87652AA5987700D56EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A876F2AA5987700D56EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1A87522AA5987500D56EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7DABB92AEA439E00FE747F /* CertificateError.swift in Sources */,
+				8A6B42F92B57EA4D007B61D4 /* Color+Extension.swift in Sources */,
+				8A168A852AE1001800696755 /* InfineonHandler.swift in Sources */,
+				8A168A792ADFD68A00696755 /* ADTViewModel.swift in Sources */,
+				8A75D16D2B58FB2B0061699F /* NFCReaderSessionState.swift in Sources */,
+				8AEDAEC42AA72D44009C02C6 /* ADTView.swift in Sources */,
+				8A1A87BD2AA5FF5000D56EA4 /* ActionMenuItemView.swift in Sources */,
+				8A1A87852AA5A28F00D56EA4 /* HomeView.swift in Sources */,
+				8A75D16F2B5916000061699F /* IOSHandler.swift in Sources */,
+				8AC7A96A2ADE7E0E00C7D6E7 /* StateConfig.swift in Sources */,
+				8A75D1712B593CA90061699F /* RecordEncoder.swift in Sources */,
+				8A168A7F2ADFF6DA00696755 /* CHViewModelModel.swift in Sources */,
+				8A1A87BA2AA5EFEC00D56EA4 /* StandardPointDimension.swift in Sources */,
+				8A168A822AE0FE4B00696755 /* INDEFHandler.swift in Sources */,
+				8A1A879B2AA5AFE600D56EA4 /* Images.swift in Sources */,
+				8AEDAECF2AA841A4009C02C6 /* NBTOperationView.swift in Sources */,
+				8A9215902B5E90F8005D2C62 /* IOSNDEFError.swift in Sources */,
+				8AC7A96C2ADE7FF600C7D6E7 /* NBTPersoConstants.swift in Sources */,
+				8A1A875C2AA5987500D56EA4 /* SplashScreenView.swift in Sources */,
+				8A20BB232ADD6A2D004043CD /* ResetViewModel.swift in Sources */,
+				8A1A87902AA5A63F00D56EA4 /* Font+Extension.swift in Sources */,
+				8AEDAEC12AA72A4A009C02C6 /* PassThroughView.swift in Sources */,
+				8A168A912AE137D600696755 /* BPViewModel.swift in Sources */,
+				8AEDAEBF2AA70A1D009C02C6 /* ConnectionHandoverView.swift in Sources */,
+				8A20BB1B2AD8081B004043CD /* IFXButton.swift in Sources */,
+				8A1A87982AA5AF3C00D56EA4 /* String+Extension.swift in Sources */,
+				8A1A87B32AA5DF5F00D56EA4 /* ActionMenu.swift in Sources */,
+				8A168A9C2AE24A7D00696755 /* Files.swift in Sources */,
+				8AB1FB302BAD571F00C46E08 /* SplashScreenViewModel.swift in Sources */,
+				8A168A972AE14A9600696755 /* CertUtils.swift in Sources */,
+				8A1A875A2AA5987500D56EA4 /* InfineonNBTPersoApp.swift in Sources */,
+				8A20BB1E2ADCFCDF004043CD /* HomeViewModel.swift in Sources */,
+				8A20BB202ADD3637004043CD /* NBTUseCaseManager.swift in Sources */,
+				8A168A7C2ADFEF1A00696755 /* PassThroughViewModel.swift in Sources */,
+				8AEDAECD2AA73B17009C02C6 /* NFCSessionManager.swift in Sources */,
+				8A483AB72B886777009E95E7 /* NBTDeviceState.swift in Sources */,
+				8AEDAEBC2AA70530009C02C6 /* ResetView.swift in Sources */,
+				8A1A87BF2AA5FFF800D56EA4 /* HeaderView.swift in Sources */,
+				8AEDAEB92AA6EB6E009C02C6 /* BrandProtectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A87632AA5987700D56EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9215962B5F9707005D2C62 /* StateConfig.swift in Sources */,
+				8AB1FB3E2BADA1AD00C46E08 /* NBTPersoConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1A876D2AA5987700D56EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB1FB3D2BAD959D00C46E08 /* NFCReaderSessionState.swift in Sources */,
+				8A483AB82B88677B009E95E7 /* NBTDeviceState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A1A87692AA5987700D56EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1A87552AA5987500D56EA4 /* InfineonNBTPerso */;
+			targetProxy = 8A1A87682AA5987700D56EA4 /* PBXContainerItemProxy */;
+		};
+		8A1A87732AA5987700D56EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1A87552AA5987500D56EA4 /* InfineonNBTPerso */;
+			targetProxy = 8A1A87722AA5987700D56EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A1A87792AA5987700D56EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A1A877A2AA5987700D56EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8A1A877C2AA5987700D56EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = InfineonNBTPerso/InfineonNBTPerso.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.20240202;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = InfineonNBTPerso/Presentation/Assets/Colors/Colors.xcassets;
+				DEVELOPMENT_TEAM = H27WVDFHGW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfineonNBTPersoInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NBT PERSO";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "To communicate with Infineon Secured NFC tags ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infineon.nbt.ios.perso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A1A877D2AA5987700D56EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = InfineonNBTPerso/InfineonNBTPerso.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.20240202;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = InfineonNBTPerso/Presentation/Assets/Colors/Colors.xcassets;
+				DEVELOPMENT_TEAM = H27WVDFHGW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfineonNBTPersoInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NBT PERSO";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "To communicate with Infineon Secured NFC tags ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infineon.nbt.ios.perso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8A1A877F2AA5987700D56EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = H27WVDFHGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infineon.nbt.ios.perso.nbt-ios-persoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfineonNBTPerso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InfineonNBTPerso";
+			};
+			name = Debug;
+		};
+		8A1A87802AA5987700D56EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = H27WVDFHGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infineon.nbt.ios.perso.nbt-ios-persoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfineonNBTPerso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InfineonNBTPerso";
+			};
+			name = Release;
+		};
+		8A1A87822AA5987700D56EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = H27WVDFHGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infineon.nbt.ios.perso.nbt-ios-persoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = InfineonNBTPerso;
+			};
+			name = Debug;
+		};
+		8A1A87832AA5987700D56EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = H27WVDFHGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infineon.nbt.ios.perso.nbt-ios-persoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = InfineonNBTPerso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1A87512AA5987500D56EA4 /* Build configuration list for PBXProject "InfineonNBTPerso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A87792AA5987700D56EA4 /* Debug */,
+				8A1A877A2AA5987700D56EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1A877B2AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPerso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A877C2AA5987700D56EA4 /* Debug */,
+				8A1A877D2AA5987700D56EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1A877E2AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPersoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A877F2AA5987700D56EA4 /* Debug */,
+				8A1A87802AA5987700D56EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1A87812AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPersoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A87822AA5987700D56EA4 /* Debug */,
+				8A1A87832AA5987700D56EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8A2EA4962BADD347005E9F10 /* XCLocalSwiftPackageReference "Libraries/InfineonChanneliOSNfc" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Libraries/InfineonChanneliOSNfc;
+		};
+		8A2EA49C2BADD366005E9F10 /* XCLocalSwiftPackageReference "Libraries/InfineonConsoleLogger" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Libraries/InfineonConsoleLogger;
+		};
+		8A69E9EC2BD7BCFC00948E8C /* XCLocalSwiftPackageReference "Libraries/optiga-nbt-lib-swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Libraries/optiga-nbt-lib-swift";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A2EA4972BADD347005E9F10 /* InfineonChanneliOSNfc */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfineonChanneliOSNfc;
+		};
+		8A2EA49A2BADD358005E9F10 /* InfineonNbt */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfineonNbt;
+		};
+		8A2EA49D2BADD366005E9F10 /* InfineonConsoleLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfineonConsoleLogger;
+		};
+		8A69E9ED2BD7BCFC00948E8C /* InfineonNbt */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfineonNbt;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8A1A874E2AA5987500D56EA4 /* Project object */;
+}
