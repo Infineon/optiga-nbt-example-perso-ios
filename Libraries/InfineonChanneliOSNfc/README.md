@@ -1,6 +1,6 @@
 <!--
-SPDX-FileCopyrightText: 2024 Infineon Technologies AG
-SPDX-License-Identifier: MIT
+SPDX-FileCopyrightText: Copyright (c) 2024-2026 Infineon Technologies AG
+SPDX-License-Identifier: CC-BY-4.0
 -->
 
 # Infineon NFC Channel for iOS Swift Library
@@ -11,58 +11,56 @@ This library implements the IChannel protocol establishing the NFC synchronous c
 
 1. Include headers
 
-```swift
-import InfineonChanneliOSNfc
-```
+    ```swift
+    import InfineonChanneliOSNfc
+    ```
 
-2. Create a NFC Channel
+1. Create a NFC Channel
 
-```swift
- let session: NFCTagReaderSession =  ... // Get the instance from NFCTagReaderSessionDelegate
- let session: NFCTagReaderSession =  ... // Get the instance from NFCTagReaderSessionDelegate
- 
- let nfcChannel = NfcChannel(tag: tag, readerSession: session)
-``` 
-  
-2. Open a NFC Channel
+    ```swift
+    let session: NFCTagReaderSession =  ... // Get the instance from NFCTagReaderSessionDelegate
+    let session: NFCTagReaderSession =  ... // Get the instance from NFCTagReaderSessionDelegate
 
-```swift
- try nfcChannel.open(exclusive: true)
-```
-3. Connect a NFC Channel
+    let nfcChannel = NfcChannel(tag: tag, readerSession: session)
+    ```
 
-```swift
-  try await channel.connect(request: nil)
-```
+1. Open a NFC Channel
 
-3. transmit a APDU data
+    ```swift
+    try nfcChannel.open(exclusive: true)
+    ```
 
-```swift
- let caseCommand = Data([0x00, 0xA4, 0x04, 0x00, 0x00])
- let response = try await nfcChannel.transmit(stream: caseCommand)
-     
-```    
-     
-     
-4. Use NFC Channel in ApduChannel
-```swift
-// Instantiates the ``APDUChannel`` with console logger.
-let logger = ConsoleLogger.getConsoleLogger()
+1. Connect a NFC Channel
 
-apduChannel = ApduChannel(
-    channel: NfcChannel(tag: tag, readerSession: session),
-    logger: logger
-)
+    ```swift
+    try await channel.connect(request: nil)
+    ```
 
- ```
- 
+1. transmit a APDU data
+
+    ```swift
+    let caseCommand = Data([0x00, 0xA4, 0x04, 0x00, 0x00])
+    let response = try await nfcChannel.transmit(stream: caseCommand)
+    ```
+
+1. Use NFC Channel in ApduChannel
+
+    ```swift
+    // Instantiates the ``APDUChannel`` with console logger.
+    let logger = ConsoleLogger.getConsoleLogger()
+
+    apduChannel = ApduChannel(
+        channel: NfcChannel(tag: tag, readerSession: session),
+        logger: logger
+    )
+    ```
+
 ## Dependencies
+
 * **hsw-channel-swift**
 
     The Channel library provides IChannel protocol for establishing the generic synchronous communication channel.
-    
+
 * **hsw-utils-swift**
 
-    The utilities library provides the utility methods such as byte conversions, string conversions and bit operations. 
-
-
+    The utilities library provides the utility methods such as byte conversions, string conversions and bit operations.

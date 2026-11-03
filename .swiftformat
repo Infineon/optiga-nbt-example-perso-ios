@@ -36,7 +36,7 @@
 # Use uppercase letters for better readability
 --hexliteralcase uppercase
 
-# Indent the contents of conditional compilation blocks for improved code 
+# Indent the contents of conditional compilation blocks for improved code
 --ifdef indent
 
 # Set the indent level for each level of indentation to 4 spaces
@@ -82,7 +82,7 @@
 # Wrap function arguments before/after the first argument for consistent code formatting and improved readability
 --wraparguments beforefirst
 
-# Wrap collection elements before/after the first element for consistent code formatting and improved readability //. Ignore for specific line with "/ swiftformat:ignore:wrap" 
+# Wrap collection elements before/after the first element for consistent code formatting and improved readability //. Ignore for specific line with "/ swiftformat:ignore:wrap"
 --wrapcollections beforeFirst
 
 # Wrap conditional statements after the first condition for consistent code formatting and improved readability

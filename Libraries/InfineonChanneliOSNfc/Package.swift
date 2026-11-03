@@ -1,6 +1,6 @@
 // swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-// SPDX-FileCopyrightText: 2024 Infineon Technologies AG
+// SPDX-FileCopyrightText: Copyright (c) 2024-2025 Infineon Technologies AG
 //
 // SPDX-License-Identifier: MIT
 import PackageDescription

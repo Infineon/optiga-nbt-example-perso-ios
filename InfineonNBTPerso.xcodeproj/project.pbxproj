@@ -41,18 +41,14 @@
 		8A2EA49B2BADD358005E9F10 /* InfineonNbt in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2EA49A2BADD358005E9F10 /* InfineonNbt */; };
 		8A2EA49E2BADD366005E9F10 /* InfineonConsoleLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2EA49D2BADD366005E9F10 /* InfineonConsoleLogger */; };
 		8A483AB72B886777009E95E7 /* NBTDeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3847DC2AEA654C00E83719 /* NBTDeviceState.swift */; };
-		8A483AB82B88677B009E95E7 /* NBTDeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3847DC2AEA654C00E83719 /* NBTDeviceState.swift */; };
-		8A69E9EE2BD7BCFC00948E8C /* InfineonNbt in Frameworks */ = {isa = PBXBuildFile; productRef = 8A69E9ED2BD7BCFC00948E8C /* InfineonNbt */; };
+		8A69E9EB2BD7BB9900948E8C /* InfineonNbt in Frameworks */ = {isa = PBXBuildFile; productRef = 8A69E9EA2BD7BB9900948E8C /* InfineonNbt */; };
 		8A6B42F92B57EA4D007B61D4 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B42F82B57EA4D007B61D4 /* Color+Extension.swift */; };
 		8A75D16D2B58FB2B0061699F /* NFCReaderSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75D16C2B58FB2B0061699F /* NFCReaderSessionState.swift */; };
 		8A75D16F2B5916000061699F /* IOSHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75D16E2B5916000061699F /* IOSHandler.swift */; };
 		8A75D1712B593CA90061699F /* RecordEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75D1702B593CA90061699F /* RecordEncoder.swift */; };
 		8A7DABB92AEA439E00FE747F /* CertificateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DABB82AEA439E00FE747F /* CertificateError.swift */; };
 		8A9215902B5E90F8005D2C62 /* IOSNDEFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A92158F2B5E90F8005D2C62 /* IOSNDEFError.swift */; };
-		8A9215962B5F9707005D2C62 /* StateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A9692ADE7E0E00C7D6E7 /* StateConfig.swift */; };
 		8AB1FB302BAD571F00C46E08 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1FB2F2BAD571F00C46E08 /* SplashScreenViewModel.swift */; };
-		8AB1FB3D2BAD959D00C46E08 /* NFCReaderSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75D16C2B58FB2B0061699F /* NFCReaderSessionState.swift */; };
-		8AB1FB3E2BADA1AD00C46E08 /* NBTPersoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A96B2ADE7FF600C7D6E7 /* NBTPersoConstants.swift */; };
 		8AC7A96A2ADE7E0E00C7D6E7 /* StateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A9692ADE7E0E00C7D6E7 /* StateConfig.swift */; };
 		8AC7A96C2ADE7FF600C7D6E7 /* NBTPersoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A96B2ADE7FF600C7D6E7 /* NBTPersoConstants.swift */; };
 		8AEDAEB92AA6EB6E009C02C6 /* BrandProtectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAEB82AA6EB6E009C02C6 /* BrandProtectionView.swift */; };
@@ -63,23 +59,6 @@
 		8AEDAECD2AA73B17009C02C6 /* NFCSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAECC2AA73B17009C02C6 /* NFCSessionManager.swift */; };
 		8AEDAECF2AA841A4009C02C6 /* NBTOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAECE2AA841A4009C02C6 /* NBTOperationView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8A1A87682AA5987700D56EA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A1A874E2AA5987500D56EA4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A1A87552AA5987500D56EA4;
-			remoteInfo = nbt.ios.perso;
-		};
-		8A1A87722AA5987700D56EA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A1A874E2AA5987500D56EA4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A1A87552AA5987500D56EA4;
-			remoteInfo = nbt.ios.perso;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A168A782ADFD68900696755 /* ADTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTViewModel.swift; sourceTree = "<group>"; };
@@ -97,8 +76,6 @@
 		8A1A875B2AA5987500D56EA4 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		8A1A875D2AA5987600D56EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1A875F2AA5987600D56EA4 /* InfineonNBTPerso.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InfineonNBTPerso.entitlements; sourceTree = "<group>"; };
-		8A1A87672AA5987700D56EA4 /* InfineonNBTPersoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfineonNBTPersoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A1A87712AA5987700D56EA4 /* InfineonNBTPersoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfineonNBTPersoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1A87842AA5A28F00D56EA4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8A1A87892AA5A63F00D56EA4 /* SourceSans3-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3-Semibold.otf"; sourceTree = "<group>"; };
 		8A1A878A2AA5A63F00D56EA4 /* SourceSans3-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3-Regular.otf"; sourceTree = "<group>"; };
@@ -141,24 +118,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A69E9EB2BD7BB9900948E8C /* InfineonNbt in Frameworks */,
 				8A2EA4982BADD347005E9F10 /* InfineonChanneliOSNfc in Frameworks */,
-				8A69E9EE2BD7BCFC00948E8C /* InfineonNbt in Frameworks */,
 				8A2EA49E2BADD366005E9F10 /* InfineonConsoleLogger in Frameworks */,
 				8A2EA49B2BADD358005E9F10 /* InfineonNbt in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A1A87642AA5987700D56EA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A1A876E2AA5987700D56EA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +155,7 @@
 			children = (
 				8A1A87582AA5987500D56EA4 /* InfineonNBTPerso */,
 				8A1A87572AA5987500D56EA4 /* Products */,
+				8A89C9BF2B564D18002EC4C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,8 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				8A1A87562AA5987500D56EA4 /* InfineonNBTPerso.app */,
-				8A1A87672AA5987700D56EA4 /* InfineonNBTPersoTests.xctest */,
-				8A1A87712AA5987700D56EA4 /* InfineonNBTPersoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,6 +282,13 @@
 			path = IFXStyleComponents;
 			sourceTree = "<group>";
 		};
+		8A89C9BF2B564D18002EC4C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A9215892B5E87FE005D2C62 /* Certificate */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,49 +372,11 @@
 				8A2EA4972BADD347005E9F10 /* InfineonChanneliOSNfc */,
 				8A2EA49A2BADD358005E9F10 /* InfineonNbt */,
 				8A2EA49D2BADD366005E9F10 /* InfineonConsoleLogger */,
-				8A69E9ED2BD7BCFC00948E8C /* InfineonNbt */,
+				8A69E9EA2BD7BB9900948E8C /* InfineonNbt */,
 			);
 			productName = nbt.ios.perso;
 			productReference = 8A1A87562AA5987500D56EA4 /* InfineonNBTPerso.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8A1A87662AA5987700D56EA4 /* InfineonNBTPersoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1A877E2AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPersoTests" */;
-			buildPhases = (
-				8A1A87632AA5987700D56EA4 /* Sources */,
-				8A1A87642AA5987700D56EA4 /* Frameworks */,
-				8A1A87652AA5987700D56EA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A1A87692AA5987700D56EA4 /* PBXTargetDependency */,
-			);
-			name = InfineonNBTPersoTests;
-			packageProductDependencies = (
-			);
-			productName = nbt.ios.persoTests;
-			productReference = 8A1A87672AA5987700D56EA4 /* InfineonNBTPersoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8A1A87702AA5987700D56EA4 /* InfineonNBTPersoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1A87812AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPersoUITests" */;
-			buildPhases = (
-				8A1A876D2AA5987700D56EA4 /* Sources */,
-				8A1A876E2AA5987700D56EA4 /* Frameworks */,
-				8A1A876F2AA5987700D56EA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A1A87732AA5987700D56EA4 /* PBXTargetDependency */,
-			);
-			name = InfineonNBTPersoUITests;
-			productName = nbt.ios.persoUITests;
-			productReference = 8A1A87712AA5987700D56EA4 /* InfineonNBTPersoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -463,14 +394,6 @@
 					8A1A87552AA5987500D56EA4 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					8A1A87662AA5987700D56EA4 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 8A1A87552AA5987500D56EA4;
-					};
-					8A1A87702AA5987700D56EA4 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 8A1A87552AA5987500D56EA4;
-					};
 				};
 			};
 			buildConfigurationList = 8A1A87512AA5987500D56EA4 /* Build configuration list for PBXProject "InfineonNBTPerso" */;
@@ -485,15 +408,13 @@
 			packageReferences = (
 				8A2EA4962BADD347005E9F10 /* XCLocalSwiftPackageReference "Libraries/InfineonChanneliOSNfc" */,
 				8A2EA49C2BADD366005E9F10 /* XCLocalSwiftPackageReference "Libraries/InfineonConsoleLogger" */,
-				8A69E9EC2BD7BCFC00948E8C /* XCLocalSwiftPackageReference "Libraries/optiga-nbt-lib-swift" */,
+				8A69E9E92BD7BB9900948E8C /* XCLocalSwiftPackageReference "Libraries/optiga-nbt-lib-swift" */,
 			);
 			productRefGroup = 8A1A87572AA5987500D56EA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8A1A87552AA5987500D56EA4 /* InfineonNBTPerso */,
-				8A1A87662AA5987700D56EA4 /* InfineonNBTPersoTests */,
-				8A1A87702AA5987700D56EA4 /* InfineonNBTPersoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -511,20 +432,6 @@
 				8A168A952AE14A7100696755 /* SampleDeviceCertificate.pem in Resources */,
 				8A168A942AE14A7100696755 /* SampleDeviceKey.pem in Resources */,
 				8A1A87A82AA5DB1700D56EA4 /* Colors.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A1A87652AA5987700D56EA4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A1A876F2AA5987700D56EA4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,38 +484,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A1A87632AA5987700D56EA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A9215962B5F9707005D2C62 /* StateConfig.swift in Sources */,
-				8AB1FB3E2BADA1AD00C46E08 /* NBTPersoConstants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A1A876D2AA5987700D56EA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AB1FB3D2BAD959D00C46E08 /* NFCReaderSessionState.swift in Sources */,
-				8A483AB82B88677B009E95E7 /* NBTDeviceState.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8A1A87692AA5987700D56EA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A1A87552AA5987500D56EA4 /* InfineonNBTPerso */;
-			targetProxy = 8A1A87682AA5987700D56EA4 /* PBXContainerItemProxy */;
-		};
-		8A1A87732AA5987700D56EA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A1A87552AA5987500D56EA4 /* InfineonNBTPerso */;
-			targetProxy = 8A1A87722AA5987700D56EA4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8A1A87792AA5987700D56EA4 /* Debug */ = {
@@ -740,7 +616,7 @@
 				CODE_SIGN_ENTITLEMENTS = InfineonNBTPerso/InfineonNBTPerso.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.20240202;
+				CURRENT_PROJECT_VERSION = 20261103;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = InfineonNBTPerso/Presentation/Assets/Colors/Colors.xcassets;
 				DEVELOPMENT_TEAM = H27WVDFHGW;
@@ -767,7 +643,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infineon.nbt.ios.perso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -791,7 +667,7 @@
 				CODE_SIGN_ENTITLEMENTS = InfineonNBTPerso/InfineonNBTPerso.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.20240202;
+				CURRENT_PROJECT_VERSION = 20261103;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = InfineonNBTPerso/Presentation/Assets/Colors/Colors.xcassets;
 				DEVELOPMENT_TEAM = H27WVDFHGW;
@@ -818,7 +694,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infineon.nbt.ios.perso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -830,106 +706,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		8A1A877F2AA5987700D56EA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = H27WVDFHGW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.infineon.nbt.ios.perso.nbt-ios-persoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfineonNBTPerso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InfineonNBTPerso";
-			};
-			name = Debug;
-		};
-		8A1A87802AA5987700D56EA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = H27WVDFHGW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.infineon.nbt.ios.perso.nbt-ios-persoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfineonNBTPerso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InfineonNBTPerso";
-			};
-			name = Release;
-		};
-		8A1A87822AA5987700D56EA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = H27WVDFHGW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.infineon.nbt.ios.perso.nbt-ios-persoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_TARGET_NAME = InfineonNBTPerso;
-			};
-			name = Debug;
-		};
-		8A1A87832AA5987700D56EA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = H27WVDFHGW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.infineon.nbt.ios.perso.nbt-ios-persoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_TARGET_NAME = InfineonNBTPerso;
 			};
 			name = Release;
 		};
@@ -954,24 +730,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A1A877E2AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPersoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A1A877F2AA5987700D56EA4 /* Debug */,
-				8A1A87802AA5987700D56EA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A1A87812AA5987700D56EA4 /* Build configuration list for PBXNativeTarget "InfineonNBTPersoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A1A87822AA5987700D56EA4 /* Debug */,
-				8A1A87832AA5987700D56EA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
@@ -983,7 +741,7 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Libraries/InfineonConsoleLogger;
 		};
-		8A69E9EC2BD7BCFC00948E8C /* XCLocalSwiftPackageReference "Libraries/optiga-nbt-lib-swift" */ = {
+		8A69E9E92BD7BB9900948E8C /* XCLocalSwiftPackageReference "Libraries/optiga-nbt-lib-swift" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "Libraries/optiga-nbt-lib-swift";
 		};
@@ -1002,7 +760,7 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = InfineonConsoleLogger;
 		};
-		8A69E9ED2BD7BCFC00948E8C /* InfineonNbt */ = {
+		8A69E9EA2BD7BB9900948E8C /* InfineonNbt */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = InfineonNbt;
 		};

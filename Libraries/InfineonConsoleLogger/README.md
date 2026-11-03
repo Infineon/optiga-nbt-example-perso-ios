@@ -1,6 +1,6 @@
 <!--
-SPDX-FileCopyrightText: 2024 Infineon Technologies AG
-SPDX-License-Identifier: MIT
+SPDX-FileCopyrightText: Copyright (c) 2024-2026 Infineon Technologies AG
+SPDX-License-Identifier: CC-BY-4.0
 -->
 
 # Infineon Console Logger Swift Library
@@ -15,7 +15,6 @@ import InfineonLogger
 
 /// Import InfineonConsoleLogger to access InfineonLogger level functions.
 import InfineonConsoleLogger
-
 
 // Initialize the instance of the ConsoleLogger class
 var logger =  ConsoleLogger()
@@ -32,6 +31,6 @@ logger.setLogLevel(loggerLevel: LoggerLevel.all)
 // logs the error.
 logger.error(header: expectedHeader, message: "expected error message")
 
-
 // logs the info.
 logger.info(header: expectedHeader, message: "expected info message")
+```
